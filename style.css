@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(110, 22, 22);
+    color: white;
+}
+
+
+
+table, tr, td, th, caption {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8rem;
+    border: solid white;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+a {
+    font-style: none;
+}
+a:visited {
+    color:beige;
+}

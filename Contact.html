@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">About Gustav</a></li>
+                <li><a href="/#Menu">Seats</a></li>
+                <li><a href="2.html">Home</a></li>
+                <li><a href="Schedule.html">Schedule</a></li>
+            </ul>
+        </nav>
+    </header>
+    <figure>
+        <img src="img/yung_trappa.jpg" alt="Hellboy" width="250" height="300">
+        <figcaption>Hellboy Ascension</figcaption>
+    </figure>
+
+    <h2>My Contact Form</h2>
+    <p>
+    <form action="https://httpbin.org/get">
+    <fieldset>
+        <legend>Please don't send me any messages</legend>
+        <p>
+            <label for="firstname">Name:</label>
+            <input type="text" name="firstname" id="firstname" placeholder="your name">
+    </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" placeholder="Email">
+    </p>
+    <p>
+        <label for="message">Gucci:</label>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here you bum!"></textarea>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>   
+        <button type="reset">Reset</button>    
+    </p> 
+    </fieldset>
+</form>
+</p>
+
+</body>
+</html>
